@@ -1,0 +1,30 @@
+{
+    "client_address": "127.0.0.1:54321",
+    "server_address": "127.0.0.1:12345",
+    "total_packets_sent": 1000,
+    "total_packets_received": 991,
+    "total_packets_dropped": 10,
+    "total_packets_retransmitted": 10,
+    "average_goodput": 0.9673953267950921,
+    "retransmission_table": {
+        "# of retransmissions": {
+            "0": 1,
+            "1": 2,
+            "2": 3,
+            "3": 4
+        },
+        "# of packets": {
+            "0": 9,
+            "1": 7,
+            "2": 4,
+            "3": 3
+        }
+    },
+    "visualization_paths": {
+        "window_sizes": "./output/window_sizes_20250413_134937.png",
+        "sequence_numbers_received": "./output/seq_nums_received_20250413_134937.png",
+        "sequence_numbers_dropped": "./output/seq_nums_dropped_20250413_134937.png",
+        "goodput": "./output/goodput_20250413_134937.png",
+        "retransmission_table": "./output/retransmission_table_20250413_134937.csv"
+    }
+}
