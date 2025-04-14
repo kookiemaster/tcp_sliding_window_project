@@ -60,25 +60,25 @@ The goodput (ratio of received packets to sent packets) was measured periodicall
 
 ### TCP Sender and Receiver Window Size Over Time
 
-![TCP Window Size](/home/ubuntu/tcp_sliding_window_project/output/window_sizes_20250413_134937.png)
+![TCP Window Size](./output/window_sizes_20250413_134937.png)
 
 The graph shows how the sender's window size changes over time. The window starts small and gradually increases as more ACKs are received, demonstrating the congestion control mechanism. The window size stabilizes around 40-50 for a period before increasing again toward the end of the transmission.
 
 ### TCP Sequence Numbers Received Over Time
 
-![Sequence Numbers Received](/home/ubuntu/tcp_sliding_window_project/output/seq_nums_received_20250413_134937.png)
+![Sequence Numbers Received](./output/seq_nums_received_20250413_134937.png)
 
 This graph shows the sequence numbers received by the server over time. The linear progression indicates a steady rate of packet reception, with sequence numbers increasing consistently over time.
 
 ### TCP Sequence Numbers Dropped
 
-![Sequence Numbers Dropped](/home/ubuntu/tcp_sliding_window_project/output/seq_nums_dropped_20250413_134937.png)
+![Sequence Numbers Dropped](./output/seq_nums_dropped_20250413_134937.png)
 
 This histogram shows the distribution of dropped sequence numbers. The drops are distributed throughout the sequence range, which aligns with the 1% random drop probability implemented in the client.
 
 ### Goodput Over Time
 
-![Goodput](/home/ubuntu/tcp_sliding_window_project/output/goodput_20250413_134937.png)
+![Goodput](./output/goodput_20250413_134937.png)
 
 The goodput graph shows the ratio of received packets to sent packets over time. The average goodput is 0.9674 (indicated by the blue dashed line), which is close to the expected 0.99 with a 1% drop rate. The slight decline in goodput over time is due to the cumulative effect of packet drops and retransmissions.
 
